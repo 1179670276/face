@@ -1,0 +1,41 @@
+@charset 'UTF-8';
+.ic-slider {
+  overflow: hidden;
+  position: relative;
+  user-select: none;
+}
+
+.ic-slider .ic-slider-item {
+  float: left;
+  height: 100%;
+}
+.ic-slider .ic-slider-item img{
+  width:100%;
+}
+.ic-slider .ic-slider__track {
+  height: 100%;
+  overflow: hidden;
+}
+.ic-slider__indicators {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 12px;
+  transform: translateZ(1px);
+  text-align: center;
+  font-size: 0;
+}
+.ic-slider__indicators > i {
+  display: inline-block;
+  margin: 0 4px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #ccc;
+}
+
+.ic-slider__indicators .ic-slider__indicator--active {
+  width: 20px;
+  border-radius: 5px;
+  background: #fff;
+}
