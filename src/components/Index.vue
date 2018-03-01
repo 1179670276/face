@@ -35,7 +35,7 @@ export default {
     .background_img{
       height: 100%;
       width: 100%;
-      background: url("./../../static/img/Layer1@2x.png");
+      background: url("../../static/img/Layer1@2x.png");
       background-size: 100%;
       .header{
         padding-top: 30px;
